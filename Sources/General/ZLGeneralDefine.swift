@@ -112,12 +112,8 @@ func getAppName() -> String {
     return "App"
 }
 
-func deviceIsiPhone() -> Bool {
-    return UI_USER_INTERFACE_IDIOM() == .phone
-}
-
 func deviceIsiPad() -> Bool {
-    return UI_USER_INTERFACE_IDIOM() == .pad
+    return false
 }
 
 func deviceSafeAreaInsets() -> UIEdgeInsets {
